@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -28,79 +29,164 @@ st.set_page_config(
 # ============================================
 st.markdown("""
 <style>
-    .stApp {
-        background: linear-gradient(135deg, #FFF5E1 0%, #FFE4B5 100%);
-    }
-    .main-header {
-        background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
-        padding: 1.5rem;
-        border-radius: 15px;
-        margin-bottom: 2rem;
-        box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
-    }
-    .main-header h1 {
-        color: white;
-        font-size: 3rem;
-        font-weight: 700;
-        margin: 0;
-    }
-    .main-header p {
-        color: #FFF8F0;
-        font-size: 1.2rem;
-        margin-top: 0.5rem;
-    }
-    .hindi-tagline {
-        color: #FFE066;
-        font-size: 1.5rem;
-        margin-top: 0.5rem;
-    }
-    .stButton > button {
-        background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
-        color: white;
-        font-weight: 600;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
-    }
-    .stButton > button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 15px rgba(255, 107, 107, 0.4);
-    }
-    .project-card {
-        background: linear-gradient(135deg, #FFFFFF 0%, #FFF8F0 100%);
-        padding: 1.2rem;
-        border-radius: 12px;
-        margin: 0.5rem 0;
-        border-left: 4px solid #FF6B6B;
-    }
-    .skill-match {
-        background: #90EE90;
-        color: #1B5E20;
-        padding: 0.3rem 0.8rem;
-        border-radius: 20px;
-        display: inline-block;
-        margin: 0.2rem;
-    }
-    .skill-missing {
-        background: #FFB3B3;
-        color: #8B0000;
-        padding: 0.3rem 0.8rem;
-        border-radius: 20px;
-        display: inline-block;
-        margin: 0.2rem;
-    }
-</style>
-""", unsafe_allow_html=True)
 
-# ============================================
-# HEADER
-# ============================================
-st.markdown("""
-<div class="main-header">
-    <h1>🎯 Margdarshak AI</h1>
-    <p>Your AI-Powered Career Compass for Tier 2/3 Engineering Students</p>
-    <p class="hindi-tagline">आपका करियर, आपकी राह - हम सिर्फ मार्गदर्शक हैं</p>
-</div>
+/* ================= GLOBAL ================= */
+.stApp {
+    background: linear-gradient(135deg, #DBEAFE 0%, #F8FAFC 100%);
+    color: #1F2937;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================= GLASS EFFECT ================= */
+.glass {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ================= HEADER ================= */
+.main-header {
+    background: linear-gradient(135deg, rgba(37,99,235,0.9), rgba(30,58,138,0.9));
+    backdrop-filter: blur(12px);
+    padding: 2rem;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 12px 40px rgba(37,99,235,0.3);
+    margin-bottom: 2rem;
+}
+
+.main-header h1 {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.main-header p {
+    color: #DBEAFE;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.hindi-tagline {
+    color: #93C5FD;
+    font-size: 1.3rem;
+}
+
+/* ================= BUTTONS ================= */
+.stButton > button {
+    background: linear-gradient(135deg, #2563EB, #1E40AF);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    transition: all 0.25s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(37,99,235,0.4);
+}
+
+/* ================= PROJECT CARDS ================= */
+.project-card {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    padding: 1.2rem;
+    margin: 0.7rem 0;
+    transition: all 0.25s ease;
+    border-left: 4px solid #2563EB;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* ================= SKILL TAGS ================= */
+.skill-match {
+    background: #DCFCE7;
+    color: #166534;
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0.2rem;
+    font-size: 0.85rem;
+}
+
+.skill-missing {
+    background: #FEE2E2;
+    color: #991B1B;
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0.2rem;
+    font-size: 0.85rem;
+}
+
+/* ================= SIDEBAR ================= */
+section[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    border-right: 1px solid #E5E7EB;
+}
+
+/* ================= INPUT FIELDS ================= */
+textarea, input {
+    border-radius: 8px !important;
+    border: 1px solid #D1D5DB !important;
+}
+
+/* ================= JOB CARDS ================= */
+.job-card {
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* ================= EXPANDER HOVER ================= */
+details {
+    transition: all 0.2s ease;
+}
+
+details:hover {
+    transform: scale(1.01);
+}
+
+/* ================= METRICS (SUBTLE ANIMATION) ================= */
+[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.6);
+    padding: 10px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+}
+
+/* ================= SCROLLBAR (BONUS CLEAN LOOK) ================= */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5F5;
+    border-radius: 10px;
+}
+
+</style>
 """, unsafe_allow_html=True)
 
 
@@ -562,3 +648,56 @@ else:
         3. Click on job matches to see skill gaps
         4. Use direct job links to search live openings
         """)
+
+        st.subheader("📊 In-Demand Skills")
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+
+/* ================= JOB CARD ANIMATIONS ================= */
+
+/* ENTRY ANIMATION */
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* APPLY TO JOB CARDS */
+.job-card {
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    transition: all 0.25s ease;
+
+    /* animation */
+    animation: fadeSlideUp 0.6s ease forwards;
+}
+
+/* STAGGER EFFECT (delay for each card) */
+.job-card:nth-child(1) { animation-delay: 0.1s; }
+.job-card:nth-child(2) { animation-delay: 0.2s; }
+.job-card:nth-child(3) { animation-delay: 0.3s; }
+
+/* HOVER EFFECT */
+.job-card:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+
+/* CLICK EFFECT */
+.job-card:active {
+    transform: scale(0.97);
+}
+
+</style>
+""", unsafe_allow_html=True)
