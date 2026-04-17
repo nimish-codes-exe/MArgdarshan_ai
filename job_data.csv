@@ -1,0 +1,301 @@
+job_id,title,company,required_skills,location,salary_range
+0,Fresher DevOps Engineer,Google,"Linux, Docker, Kubernetes, Jenkins",Mumbai,₹8-8 LPA
+1,Fresher Data Scientist,Amazon,"Machine Learning, Python, Pandas, Statistics",Remote,₹4-18 LPA
+2,Junior Full Stack Developer,Infosys,"AWS, MongoDB, Python, Node.js",Mumbai,₹7-18 LPA
+3,Associate Full Stack Developer,Amazon,"MongoDB, AWS, Node.js, React",Pune,₹8-16 LPA
+4,Junior Full Stack Developer,Amazon,"AWS, Node.js, React, Python",Mumbai,₹3-8 LPA
+5,Junior Full Stack Developer,Microsoft,"React, Node.js, Python, MongoDB",Pune,₹6-17 LPA
+6,Junior Full Stack Developer,Flipkart,"React, AWS, Node.js, MongoDB",Pune,₹4-12 LPA
+7,Junior Data Scientist,TCS,"Pandas, Statistics, Python, SQL",Pune,₹8-20 LPA
+8,Associate Frontend Developer,Zomato,"TypeScript, React, CSS3, HTML5",Hyderabad,₹5-17 LPA
+9,Associate ML Engineer,Wipro,"TensorFlow, PyTorch, Python, Scikit-learn",Remote,₹3-13 LPA
+10,Fresher Backend Developer,Microsoft,"MongoDB, Django, Node.js, SQL",Remote,₹7-11 LPA
+11,Associate Full Stack Developer,Wipro,"Node.js, MongoDB, React, Python",Remote,₹5-20 LPA
+12,Fresher DevOps Engineer,Accenture,"Docker, AWS, Kubernetes, Jenkins",Hyderabad,₹5-10 LPA
+13,Fresher Cloud Engineer,Flipkart,"Terraform, Kubernetes, Azure, AWS",Mumbai,₹8-16 LPA
+14,Junior Cloud Engineer,Amazon,"Azure, Docker, Terraform, AWS",Mumbai,₹4-16 LPA
+15,Associate ML Engineer,Flipkart,"PyTorch, Scikit-learn, Python, TensorFlow",Mumbai,₹7-11 LPA
+16,Fresher Full Stack Developer,Wipro,"AWS, MongoDB, React, Node.js",Pune,₹7-11 LPA
+17,Associate DevOps Engineer,Amazon,"Jenkins, Linux, AWS, Kubernetes",Hyderabad,₹4-15 LPA
+18,Associate DevOps Engineer,TCS,"Kubernetes, Linux, Jenkins, Docker",Mumbai,₹7-17 LPA
+19,Junior Frontend Developer,Accenture,"TypeScript, JavaScript, CSS3, React",Noida,₹8-10 LPA
+20,Junior Data Scientist,Google,"Machine Learning, Statistics, Python, SQL",Pune,₹3-14 LPA
+21,Associate Frontend Developer,Amazon,"CSS3, React, JavaScript, TypeScript",Pune,₹4-19 LPA
+22,Fresher ML Engineer,Zomato,"Python, Scikit-learn, TensorFlow, PyTorch",Bangalore,₹8-19 LPA
+23,Junior Frontend Developer,Microsoft,"React, HTML5, JavaScript, TypeScript",Bangalore,₹3-18 LPA
+24,Associate Full Stack Developer,Zomato,"Python, AWS, React, MongoDB",Chennai,₹6-17 LPA
+25,Junior DevOps Engineer,Accenture,"Docker, Jenkins, Linux, Kubernetes",Chennai,₹3-14 LPA
+26,Associate Backend Developer,Amazon,"Node.js, SQL, Django, MongoDB",Bangalore,₹3-16 LPA
+27,Junior Frontend Developer,Accenture,"React, HTML5, CSS3, TypeScript",Bangalore,₹8-10 LPA
+28,Fresher DevOps Engineer,Infosys,"Linux, Jenkins, Kubernetes, Docker",Noida,₹6-20 LPA
+29,Junior Data Analyst,Accenture,"Python, Power BI, SQL, Tableau",Hyderabad,₹7-10 LPA
+30,Associate Data Scientist,Zomato,"Statistics, Machine Learning, Pandas, SQL",Chennai,₹3-8 LPA
+31,Associate ML Engineer,Zomato,"Python, TensorFlow, Scikit-learn, PyTorch",Pune,₹7-13 LPA
+32,Junior Full Stack Developer,Zomato,"AWS, Python, Node.js, MongoDB",Noida,₹6-8 LPA
+33,Fresher Backend Developer,Wipro,"Node.js, MongoDB, Django, Python",Remote,₹7-12 LPA
+34,Fresher Full Stack Developer,Accenture,"Node.js, AWS, MongoDB, Python",Mumbai,₹8-14 LPA
+35,Associate Data Scientist,Google,"Statistics, SQL, Python, Machine Learning",Chennai,₹6-13 LPA
+36,Fresher DevOps Engineer,Wipro,"AWS, Jenkins, Linux, Docker",Chennai,₹8-17 LPA
+37,Associate Full Stack Developer,Zomato,"Node.js, Python, MongoDB, React",Mumbai,₹4-18 LPA
+38,Fresher Data Analyst,Accenture,"Excel, SQL, Power BI, Python",Mumbai,₹7-13 LPA
+39,Associate Backend Developer,Flipkart,"Django, Node.js, SQL, Python",Hyderabad,₹4-13 LPA
+40,Junior Data Analyst,Microsoft,"Tableau, SQL, Power BI, Python",Noida,₹8-12 LPA
+41,Fresher DevOps Engineer,Zomato,"AWS, Docker, Kubernetes, Linux",Noida,₹4-12 LPA
+42,Fresher Data Analyst,Zomato,"Python, Power BI, Excel, SQL",Pune,₹6-11 LPA
+43,Fresher ML Engineer,Amazon,"Scikit-learn, TensorFlow, Python, PyTorch",Chennai,₹6-18 LPA
+44,Associate Cloud Engineer,Google,"AWS, Azure, Kubernetes, Terraform",Bangalore,₹5-17 LPA
+45,Junior Data Analyst,Infosys,"Excel, Tableau, Power BI, Python",Chennai,₹6-9 LPA
+46,Associate Data Analyst,Google,"Power BI, Excel, Python, Tableau",Noida,₹7-20 LPA
+47,Junior DevOps Engineer,Flipkart,"Docker, Linux, Kubernetes, AWS",Noida,₹7-10 LPA
+48,Associate Frontend Developer,Wipro,"CSS3, TypeScript, HTML5, React",Remote,₹6-13 LPA
+49,Junior Data Analyst,Wipro,"Tableau, Excel, Python, SQL",Mumbai,₹6-12 LPA
+50,Fresher Data Scientist,Google,"SQL, Machine Learning, Statistics, Pandas",Pune,₹8-11 LPA
+51,Junior Data Analyst,Microsoft,"Power BI, Python, Tableau, Excel",Bangalore,₹5-18 LPA
+52,Associate Data Analyst,Wipro,"SQL, Tableau, Python, Excel",Bangalore,₹7-11 LPA
+53,Junior Frontend Developer,Accenture,"JavaScript, HTML5, React, CSS3",Mumbai,₹5-15 LPA
+54,Junior Data Scientist,Flipkart,"SQL, Pandas, Statistics, Machine Learning",Hyderabad,₹4-9 LPA
+55,Associate Backend Developer,Infosys,"Node.js, Django, Python, SQL",Mumbai,₹4-9 LPA
+56,Fresher Data Analyst,TCS,"SQL, Tableau, Python, Power BI",Bangalore,₹4-9 LPA
+57,Fresher Data Scientist,Google,"Python, SQL, Pandas, Machine Learning",Bangalore,₹8-13 LPA
+58,Fresher Backend Developer,Zomato,"Python, Node.js, MongoDB, SQL",Pune,₹3-16 LPA
+59,Junior Data Scientist,Infosys,"Statistics, Pandas, Machine Learning, SQL",Mumbai,₹7-14 LPA
+60,Fresher DevOps Engineer,Infosys,"Docker, Jenkins, AWS, Kubernetes",Chennai,₹5-10 LPA
+61,Fresher Frontend Developer,TCS,"TypeScript, HTML5, CSS3, JavaScript",Noida,₹6-11 LPA
+62,Associate Frontend Developer,Amazon,"CSS3, HTML5, JavaScript, React",Noida,₹6-15 LPA
+63,Associate Backend Developer,Infosys,"Node.js, MongoDB, Django, SQL",Mumbai,₹7-8 LPA
+64,Junior Frontend Developer,Flipkart,"JavaScript, TypeScript, CSS3, HTML5",Remote,₹4-12 LPA
+65,Fresher Cloud Engineer,Microsoft,"AWS, Docker, Terraform, Azure",Mumbai,₹4-14 LPA
+66,Junior Frontend Developer,Flipkart,"HTML5, React, TypeScript, JavaScript",Hyderabad,₹6-17 LPA
+67,Junior ML Engineer,Zomato,"TensorFlow, Python, PyTorch, Scikit-learn",Chennai,₹6-9 LPA
+68,Fresher ML Engineer,Zomato,"Python, PyTorch, TensorFlow, Scikit-learn",Noida,₹3-17 LPA
+69,Junior Backend Developer,Microsoft,"Django, SQL, Node.js, Python",Noida,₹7-18 LPA
+70,Fresher Cloud Engineer,Wipro,"Docker, AWS, Azure, Terraform",Mumbai,₹3-15 LPA
+71,Fresher Frontend Developer,Google,"JavaScript, HTML5, React, CSS3",Remote,₹7-20 LPA
+72,Fresher ML Engineer,TCS,"PyTorch, Python, TensorFlow, Scikit-learn",Bangalore,₹4-16 LPA
+73,Associate ML Engineer,Wipro,"TensorFlow, PyTorch, Scikit-learn, Python",Hyderabad,₹3-11 LPA
+74,Junior Frontend Developer,Wipro,"React, TypeScript, CSS3, HTML5",Mumbai,₹5-18 LPA
+75,Junior Backend Developer,Microsoft,"Django, MongoDB, Node.js, SQL",Pune,₹4-8 LPA
+76,Junior Data Analyst,Flipkart,"SQL, Excel, Python, Power BI",Mumbai,₹3-9 LPA
+77,Fresher Data Scientist,Microsoft,"SQL, Pandas, Python, Statistics",Chennai,₹3-19 LPA
+78,Fresher ML Engineer,Microsoft,"Scikit-learn, TensorFlow, PyTorch, Python",Remote,₹8-14 LPA
+79,Junior Data Analyst,Google,"Python, Tableau, SQL, Excel",Bangalore,₹3-15 LPA
+80,Junior ML Engineer,Zomato,"TensorFlow, PyTorch, Scikit-learn, Python",Noida,₹8-19 LPA
+81,Junior Data Analyst,Zomato,"Excel, Python, Power BI, Tableau",Remote,₹4-13 LPA
+82,Associate Cloud Engineer,Flipkart,"AWS, Kubernetes, Terraform, Azure",Mumbai,₹6-10 LPA
+83,Fresher Data Scientist,Microsoft,"Statistics, Machine Learning, SQL, Pandas",Noida,₹5-8 LPA
+84,Fresher Cloud Engineer,Accenture,"Kubernetes, Terraform, Azure, Docker",Remote,₹7-12 LPA
+85,Fresher Data Analyst,Google,"Excel, Power BI, SQL, Tableau",Noida,₹6-17 LPA
+86,Associate Frontend Developer,Zomato,"HTML5, JavaScript, CSS3, TypeScript",Pune,₹3-8 LPA
+87,Fresher Backend Developer,Zomato,"Django, SQL, Node.js, Python",Chennai,₹5-20 LPA
+88,Associate Full Stack Developer,Amazon,"Python, MongoDB, AWS, React",Mumbai,₹6-11 LPA
+89,Junior ML Engineer,TCS,"TensorFlow, Scikit-learn, PyTorch, Python",Chennai,₹4-8 LPA
+90,Fresher DevOps Engineer,Wipro,"Kubernetes, Docker, Linux, AWS",Hyderabad,₹7-12 LPA
+91,Junior Full Stack Developer,Amazon,"AWS, MongoDB, Python, Node.js",Pune,₹7-13 LPA
+92,Fresher Data Scientist,Microsoft,"Statistics, Machine Learning, SQL, Pandas",Mumbai,₹7-17 LPA
+93,Associate DevOps Engineer,Amazon,"Docker, Jenkins, AWS, Kubernetes",Mumbai,₹7-18 LPA
+94,Junior Backend Developer,Google,"Node.js, Python, MongoDB, Django",Hyderabad,₹4-11 LPA
+95,Associate Frontend Developer,Microsoft,"JavaScript, HTML5, TypeScript, CSS3",Hyderabad,₹4-10 LPA
+96,Associate Backend Developer,Google,"SQL, Python, MongoDB, Node.js",Noida,₹4-15 LPA
+97,Associate Full Stack Developer,Flipkart,"AWS, Node.js, Python, MongoDB",Remote,₹4-17 LPA
+98,Junior ML Engineer,Google,"TensorFlow, PyTorch, Python, Scikit-learn",Hyderabad,₹7-13 LPA
+99,Associate Frontend Developer,Accenture,"CSS3, React, JavaScript, TypeScript",Pune,₹6-9 LPA
+100,Associate Data Analyst,Zomato,"SQL, Power BI, Tableau, Excel",Bangalore,₹3-19 LPA
+101,Associate ML Engineer,Amazon,"TensorFlow, Scikit-learn, PyTorch, Python",Chennai,₹7-18 LPA
+102,Associate DevOps Engineer,Accenture,"Jenkins, AWS, Docker, Kubernetes",Bangalore,₹7-17 LPA
+103,Fresher Frontend Developer,Google,"JavaScript, React, CSS3, TypeScript",Mumbai,₹3-13 LPA
+104,Junior Data Analyst,Flipkart,"SQL, Tableau, Python, Power BI",Remote,₹4-11 LPA
+105,Fresher Frontend Developer,Amazon,"CSS3, JavaScript, React, HTML5",Pune,₹5-12 LPA
+106,Fresher Full Stack Developer,Amazon,"React, Python, MongoDB, AWS",Hyderabad,₹3-14 LPA
+107,Junior Cloud Engineer,Google,"AWS, Azure, Docker, Terraform",Pune,₹6-19 LPA
+108,Associate Full Stack Developer,TCS,"Node.js, MongoDB, AWS, React",Pune,₹6-19 LPA
+109,Junior Data Scientist,Flipkart,"Machine Learning, Statistics, SQL, Python",Hyderabad,₹6-18 LPA
+110,Junior ML Engineer,Wipro,"PyTorch, TensorFlow, Scikit-learn, Python",Chennai,₹6-16 LPA
+111,Junior Backend Developer,Wipro,"MongoDB, Django, SQL, Python",Hyderabad,₹3-12 LPA
+112,Fresher DevOps Engineer,TCS,"AWS, Kubernetes, Jenkins, Linux",Pune,₹5-9 LPA
+113,Junior Data Analyst,Amazon,"Power BI, Excel, SQL, Tableau",Mumbai,₹3-20 LPA
+114,Junior Data Analyst,Flipkart,"Excel, Python, SQL, Power BI",Mumbai,₹5-15 LPA
+115,Fresher Cloud Engineer,Google,"Azure, Kubernetes, Docker, Terraform",Bangalore,₹7-11 LPA
+116,Junior Full Stack Developer,Google,"MongoDB, AWS, React, Node.js",Remote,₹3-18 LPA
+117,Fresher ML Engineer,Infosys,"TensorFlow, PyTorch, Scikit-learn, Python",Noida,₹5-11 LPA
+118,Fresher Data Analyst,Accenture,"SQL, Python, Power BI, Tableau",Mumbai,₹4-8 LPA
+119,Fresher Frontend Developer,TCS,"JavaScript, HTML5, TypeScript, CSS3",Bangalore,₹6-14 LPA
+120,Associate Full Stack Developer,Google,"Python, Node.js, MongoDB, React",Noida,₹7-19 LPA
+121,Junior Data Scientist,Microsoft,"Machine Learning, Python, SQL, Statistics",Hyderabad,₹8-13 LPA
+122,Associate Cloud Engineer,Amazon,"Docker, AWS, Kubernetes, Azure",Chennai,₹4-15 LPA
+123,Associate Backend Developer,Microsoft,"Node.js, MongoDB, SQL, Django",Noida,₹6-15 LPA
+124,Associate Full Stack Developer,Accenture,"Python, Node.js, MongoDB, React",Mumbai,₹5-19 LPA
+125,Junior DevOps Engineer,Accenture,"AWS, Linux, Jenkins, Kubernetes",Noida,₹6-10 LPA
+126,Associate ML Engineer,Infosys,"Scikit-learn, Python, PyTorch, TensorFlow",Hyderabad,₹4-9 LPA
+127,Junior Frontend Developer,Google,"TypeScript, JavaScript, HTML5, React",Mumbai,₹7-14 LPA
+128,Fresher Data Scientist,Wipro,"Statistics, Machine Learning, Python, SQL",Remote,₹7-10 LPA
+129,Junior Cloud Engineer,Accenture,"Kubernetes, Docker, Terraform, Azure",Pune,₹4-9 LPA
+130,Junior Data Analyst,Google,"Python, SQL, Tableau, Excel",Chennai,₹5-15 LPA
+131,Associate Cloud Engineer,TCS,"AWS, Terraform, Kubernetes, Azure",Remote,₹7-9 LPA
+132,Junior Frontend Developer,Amazon,"HTML5, React, JavaScript, CSS3",Hyderabad,₹8-8 LPA
+133,Associate DevOps Engineer,Wipro,"Docker, AWS, Jenkins, Linux",Pune,₹3-14 LPA
+134,Associate Data Analyst,Google,"SQL, Python, Tableau, Power BI",Chennai,₹6-13 LPA
+135,Junior Backend Developer,TCS,"Django, MongoDB, Python, SQL",Chennai,₹3-16 LPA
+136,Fresher Full Stack Developer,Wipro,"MongoDB, Node.js, React, Python",Chennai,₹3-15 LPA
+137,Fresher Frontend Developer,Infosys,"CSS3, HTML5, JavaScript, TypeScript",Chennai,₹3-14 LPA
+138,Associate Backend Developer,Amazon,"SQL, MongoDB, Node.js, Python",Remote,₹8-20 LPA
+139,Fresher Full Stack Developer,Amazon,"Node.js, AWS, MongoDB, Python",Bangalore,₹6-10 LPA
+140,Fresher ML Engineer,TCS,"Scikit-learn, Python, PyTorch, TensorFlow",Hyderabad,₹4-11 LPA
+141,Junior ML Engineer,Infosys,"TensorFlow, PyTorch, Python, Scikit-learn",Chennai,₹6-15 LPA
+142,Junior Cloud Engineer,Microsoft,"AWS, Azure, Kubernetes, Terraform",Mumbai,₹6-20 LPA
+143,Associate Cloud Engineer,Microsoft,"AWS, Azure, Terraform, Docker",Mumbai,₹5-9 LPA
+144,Fresher Backend Developer,Microsoft,"Python, SQL, Django, Node.js",Pune,₹7-19 LPA
+145,Fresher Backend Developer,Microsoft,"Python, Node.js, Django, SQL",Chennai,₹4-15 LPA
+146,Fresher Frontend Developer,Zomato,"JavaScript, CSS3, HTML5, TypeScript",Noida,₹5-18 LPA
+147,Fresher Backend Developer,Google,"Python, SQL, MongoDB, Django",Pune,₹3-20 LPA
+148,Fresher ML Engineer,TCS,"Scikit-learn, Python, PyTorch, TensorFlow",Mumbai,₹7-12 LPA
+149,Junior Data Analyst,Microsoft,"Tableau, Power BI, SQL, Python",Noida,₹4-17 LPA
+150,Junior Frontend Developer,Microsoft,"CSS3, JavaScript, React, TypeScript",Hyderabad,₹6-19 LPA
+151,Associate Data Scientist,Wipro,"Python, SQL, Pandas, Statistics",Hyderabad,₹3-17 LPA
+152,Fresher DevOps Engineer,Accenture,"Linux, Docker, AWS, Kubernetes",Noida,₹6-19 LPA
+153,Associate Frontend Developer,Microsoft,"React, HTML5, CSS3, JavaScript",Chennai,₹3-8 LPA
+154,Associate Cloud Engineer,Accenture,"AWS, Azure, Kubernetes, Docker",Remote,₹7-12 LPA
+155,Associate Backend Developer,Amazon,"MongoDB, SQL, Python, Node.js",Pune,₹5-17 LPA
+156,Junior Data Scientist,TCS,"Machine Learning, Statistics, SQL, Python",Hyderabad,₹6-17 LPA
+157,Associate Full Stack Developer,Infosys,"MongoDB, Python, React, AWS",Hyderabad,₹5-11 LPA
+158,Fresher Full Stack Developer,Google,"AWS, React, MongoDB, Node.js",Chennai,₹7-11 LPA
+159,Associate Data Analyst,Wipro,"Excel, Tableau, Power BI, SQL",Hyderabad,₹6-11 LPA
+160,Junior Frontend Developer,Accenture,"React, HTML5, CSS3, TypeScript",Noida,₹7-11 LPA
+161,Associate Cloud Engineer,Amazon,"Kubernetes, Docker, Azure, Terraform",Remote,₹8-15 LPA
+162,Junior Frontend Developer,Flipkart,"CSS3, HTML5, React, TypeScript",Hyderabad,₹3-12 LPA
+163,Junior Backend Developer,Zomato,"MongoDB, SQL, Django, Node.js",Remote,₹6-16 LPA
+164,Fresher Frontend Developer,Wipro,"TypeScript, React, JavaScript, CSS3",Noida,₹7-12 LPA
+165,Fresher Data Scientist,Google,"Python, Statistics, SQL, Machine Learning",Noida,₹3-16 LPA
+166,Junior Full Stack Developer,Microsoft,"Python, MongoDB, AWS, React",Pune,₹4-17 LPA
+167,Associate Data Analyst,Wipro,"Tableau, Power BI, Python, Excel",Remote,₹6-19 LPA
+168,Associate Data Scientist,Zomato,"Statistics, Pandas, Machine Learning, SQL",Bangalore,₹5-17 LPA
+169,Fresher DevOps Engineer,Google,"Linux, Kubernetes, Docker, AWS",Mumbai,₹8-12 LPA
+170,Junior Frontend Developer,Flipkart,"React, HTML5, JavaScript, CSS3",Remote,₹7-15 LPA
+171,Fresher ML Engineer,Amazon,"PyTorch, Python, Scikit-learn, TensorFlow",Mumbai,₹4-8 LPA
+172,Fresher Frontend Developer,TCS,"React, HTML5, CSS3, JavaScript",Chennai,₹8-10 LPA
+173,Fresher Data Analyst,Infosys,"Excel, Tableau, Power BI, Python",Mumbai,₹4-13 LPA
+174,Junior DevOps Engineer,Google,"AWS, Linux, Kubernetes, Docker",Mumbai,₹3-11 LPA
+175,Fresher Backend Developer,Infosys,"Python, MongoDB, SQL, Node.js",Noida,₹6-18 LPA
+176,Junior DevOps Engineer,Accenture,"AWS, Linux, Jenkins, Kubernetes",Hyderabad,₹3-19 LPA
+177,Fresher ML Engineer,Wipro,"PyTorch, TensorFlow, Python, Scikit-learn",Hyderabad,₹7-15 LPA
+178,Fresher Full Stack Developer,Amazon,"Python, MongoDB, React, AWS",Chennai,₹8-16 LPA
+179,Junior Full Stack Developer,TCS,"MongoDB, AWS, Python, React",Pune,₹3-16 LPA
+180,Junior ML Engineer,Google,"Python, PyTorch, Scikit-learn, TensorFlow",Remote,₹3-16 LPA
+181,Associate Data Scientist,Accenture,"SQL, Machine Learning, Pandas, Python",Hyderabad,₹5-15 LPA
+182,Associate Cloud Engineer,Zomato,"Terraform, Docker, Azure, Kubernetes",Noida,₹6-10 LPA
+183,Associate ML Engineer,Google,"Python, TensorFlow, PyTorch, Scikit-learn",Pune,₹4-14 LPA
+184,Junior Full Stack Developer,Flipkart,"AWS, React, Node.js, MongoDB",Noida,₹3-10 LPA
+185,Associate Data Scientist,Microsoft,"Pandas, Machine Learning, Statistics, Python",Noida,₹3-15 LPA
+186,Fresher Cloud Engineer,Amazon,"Kubernetes, Docker, Terraform, AWS",Hyderabad,₹4-17 LPA
+187,Junior Backend Developer,Zomato,"SQL, Django, Node.js, MongoDB",Pune,₹5-20 LPA
+188,Junior DevOps Engineer,Wipro,"Linux, Jenkins, Kubernetes, AWS",Noida,₹8-11 LPA
+189,Junior Full Stack Developer,TCS,"AWS, Python, React, Node.js",Mumbai,₹5-18 LPA
+190,Fresher Full Stack Developer,Microsoft,"AWS, React, MongoDB, Python",Noida,₹3-13 LPA
+191,Fresher Data Scientist,Zomato,"Pandas, SQL, Python, Machine Learning",Mumbai,₹3-10 LPA
+192,Junior Data Scientist,Accenture,"SQL, Statistics, Machine Learning, Python",Mumbai,₹5-11 LPA
+193,Junior DevOps Engineer,Microsoft,"Kubernetes, AWS, Linux, Jenkins",Bangalore,₹8-9 LPA
+194,Junior ML Engineer,Accenture,"Scikit-learn, TensorFlow, Python, PyTorch",Bangalore,₹7-11 LPA
+195,Associate Data Scientist,Infosys,"SQL, Statistics, Python, Machine Learning",Noida,₹8-12 LPA
+196,Fresher Cloud Engineer,Amazon,"Terraform, Kubernetes, AWS, Azure",Pune,₹4-20 LPA
+197,Fresher DevOps Engineer,Infosys,"Linux, Jenkins, Kubernetes, AWS",Hyderabad,₹3-16 LPA
+198,Junior ML Engineer,TCS,"PyTorch, TensorFlow, Scikit-learn, Python",Remote,₹5-17 LPA
+199,Associate Backend Developer,Infosys,"Django, Node.js, SQL, MongoDB",Hyderabad,₹3-20 LPA
+200,Junior Frontend Developer,Microsoft,"TypeScript, CSS3, HTML5, JavaScript",Pune,₹5-15 LPA
+201,Junior Cloud Engineer,Zomato,"Docker, Terraform, Kubernetes, Azure",Pune,₹4-14 LPA
+202,Junior Cloud Engineer,TCS,"Kubernetes, AWS, Docker, Terraform",Pune,₹5-15 LPA
+203,Fresher DevOps Engineer,Microsoft,"AWS, Docker, Kubernetes, Linux",Chennai,₹5-17 LPA
+204,Junior DevOps Engineer,TCS,"Docker, AWS, Jenkins, Linux",Remote,₹8-15 LPA
+205,Fresher ML Engineer,Microsoft,"Python, TensorFlow, PyTorch, Scikit-learn",Chennai,₹5-15 LPA
+206,Associate Frontend Developer,Microsoft,"CSS3, React, HTML5, TypeScript",Noida,₹8-19 LPA
+207,Associate Backend Developer,Wipro,"Python, Django, SQL, Node.js",Mumbai,₹5-12 LPA
+208,Associate Backend Developer,Wipro,"Node.js, MongoDB, SQL, Python",Hyderabad,₹7-9 LPA
+209,Junior Frontend Developer,Flipkart,"CSS3, HTML5, React, JavaScript",Pune,₹5-12 LPA
+210,Associate Data Analyst,Wipro,"Excel, Tableau, SQL, Power BI",Hyderabad,₹3-17 LPA
+211,Fresher Backend Developer,TCS,"Node.js, MongoDB, Django, SQL",Remote,₹7-17 LPA
+212,Associate Backend Developer,Accenture,"MongoDB, Django, SQL, Node.js",Pune,₹6-13 LPA
+213,Junior Data Analyst,Google,"Tableau, Python, Power BI, SQL",Mumbai,₹7-18 LPA
+214,Fresher Cloud Engineer,TCS,"AWS, Kubernetes, Azure, Docker",Noida,₹5-19 LPA
+215,Junior Backend Developer,Amazon,"SQL, MongoDB, Django, Python",Noida,₹8-8 LPA
+216,Junior Data Analyst,Accenture,"Tableau, Excel, SQL, Python",Chennai,₹3-17 LPA
+217,Fresher ML Engineer,Amazon,"Python, PyTorch, TensorFlow, Scikit-learn",Pune,₹5-9 LPA
+218,Associate Backend Developer,Amazon,"Django, Python, SQL, Node.js",Hyderabad,₹8-9 LPA
+219,Junior Cloud Engineer,TCS,"AWS, Docker, Kubernetes, Terraform",Mumbai,₹8-16 LPA
+220,Fresher Cloud Engineer,Wipro,"Azure, Docker, Kubernetes, AWS",Pune,₹7-17 LPA
+221,Associate Frontend Developer,Accenture,"React, CSS3, JavaScript, HTML5",Pune,₹8-8 LPA
+222,Junior DevOps Engineer,Accenture,"Kubernetes, Jenkins, Docker, Linux",Chennai,₹3-10 LPA
+223,Fresher Cloud Engineer,Zomato,"Terraform, Kubernetes, Azure, AWS",Pune,₹4-17 LPA
+224,Junior ML Engineer,Accenture,"Scikit-learn, PyTorch, TensorFlow, Python",Bangalore,₹3-12 LPA
+225,Junior DevOps Engineer,TCS,"Linux, AWS, Jenkins, Docker",Noida,₹8-11 LPA
+226,Junior Data Scientist,Google,"Python, Pandas, SQL, Statistics",Mumbai,₹7-12 LPA
+227,Fresher Data Scientist,Accenture,"Python, SQL, Statistics, Pandas",Noida,₹3-16 LPA
+228,Associate Data Analyst,Google,"Excel, Power BI, Python, SQL",Noida,₹4-10 LPA
+229,Junior Full Stack Developer,Infosys,"Node.js, React, AWS, MongoDB",Chennai,₹7-18 LPA
+230,Fresher Data Scientist,Accenture,"SQL, Pandas, Machine Learning, Python",Noida,₹4-8 LPA
+231,Junior Data Analyst,Zomato,"SQL, Python, Power BI, Excel",Remote,₹5-17 LPA
+232,Fresher Data Analyst,Wipro,"Tableau, Python, Power BI, Excel",Pune,₹8-20 LPA
+233,Fresher DevOps Engineer,Amazon,"Docker, Jenkins, Linux, Kubernetes",Bangalore,₹5-20 LPA
+234,Associate Backend Developer,Flipkart,"Python, Node.js, MongoDB, SQL",Chennai,₹8-19 LPA
+235,Junior Frontend Developer,Infosys,"CSS3, React, HTML5, JavaScript",Remote,₹6-9 LPA
+236,Junior Frontend Developer,Microsoft,"TypeScript, JavaScript, React, CSS3",Pune,₹7-15 LPA
+237,Associate Backend Developer,Google,"Node.js, MongoDB, Django, Python",Pune,₹7-10 LPA
+238,Junior ML Engineer,Infosys,"TensorFlow, Python, PyTorch, Scikit-learn",Noida,₹8-16 LPA
+239,Junior Data Analyst,Google,"Tableau, SQL, Python, Power BI",Remote,₹4-20 LPA
+240,Fresher Full Stack Developer,Microsoft,"React, AWS, MongoDB, Node.js",Bangalore,₹6-13 LPA
+241,Associate ML Engineer,Google,"Scikit-learn, PyTorch, TensorFlow, Python",Pune,₹3-11 LPA
+242,Junior ML Engineer,Infosys,"Scikit-learn, TensorFlow, PyTorch, Python",Mumbai,₹3-18 LPA
+243,Fresher Data Scientist,TCS,"Machine Learning, SQL, Pandas, Python",Noida,₹7-18 LPA
+244,Associate DevOps Engineer,Accenture,"Docker, Jenkins, Kubernetes, AWS",Mumbai,₹8-9 LPA
+245,Junior Frontend Developer,Microsoft,"JavaScript, HTML5, TypeScript, CSS3",Chennai,₹3-11 LPA
+246,Associate Cloud Engineer,Accenture,"Docker, Kubernetes, Terraform, Azure",Chennai,₹5-8 LPA
+247,Associate Data Scientist,Infosys,"Python, Machine Learning, Pandas, Statistics",Bangalore,₹6-11 LPA
+248,Associate DevOps Engineer,Zomato,"AWS, Linux, Jenkins, Docker",Hyderabad,₹4-13 LPA
+249,Fresher ML Engineer,Google,"PyTorch, Scikit-learn, Python, TensorFlow",Chennai,₹7-11 LPA
+250,Fresher Data Scientist,Microsoft,"Machine Learning, Python, SQL, Statistics",Pune,₹6-15 LPA
+251,Junior Backend Developer,Infosys,"MongoDB, Django, Node.js, SQL",Pune,₹6-8 LPA
+252,Associate Cloud Engineer,Flipkart,"AWS, Azure, Kubernetes, Docker",Pune,₹6-16 LPA
+253,Junior Frontend Developer,Microsoft,"React, CSS3, TypeScript, JavaScript",Pune,₹8-13 LPA
+254,Junior DevOps Engineer,Amazon,"Linux, AWS, Docker, Kubernetes",Chennai,₹8-17 LPA
+255,Associate Data Analyst,Wipro,"Tableau, Power BI, SQL, Python",Mumbai,₹8-8 LPA
+256,Fresher Full Stack Developer,Infosys,"Python, AWS, MongoDB, Node.js",Bangalore,₹6-9 LPA
+257,Fresher DevOps Engineer,Amazon,"Jenkins, Docker, AWS, Kubernetes",Mumbai,₹4-19 LPA
+258,Fresher ML Engineer,Wipro,"Python, PyTorch, TensorFlow, Scikit-learn",Remote,₹7-18 LPA
+259,Associate Data Scientist,Amazon,"Statistics, Pandas, Machine Learning, SQL",Pune,₹5-8 LPA
+260,Fresher Data Scientist,Amazon,"Pandas, Statistics, Machine Learning, SQL",Noida,₹4-19 LPA
+261,Associate Data Analyst,Amazon,"Tableau, Python, SQL, Power BI",Mumbai,₹7-10 LPA
+262,Junior Backend Developer,TCS,"MongoDB, Python, SQL, Django",Mumbai,₹8-9 LPA
+263,Junior Frontend Developer,TCS,"React, TypeScript, CSS3, JavaScript",Bangalore,₹3-19 LPA
+264,Junior Full Stack Developer,Zomato,"MongoDB, React, AWS, Node.js",Mumbai,₹6-10 LPA
+265,Junior Data Scientist,Zomato,"Statistics, Python, Machine Learning, SQL",Noida,₹8-17 LPA
+266,Junior Frontend Developer,Amazon,"HTML5, JavaScript, TypeScript, CSS3",Remote,₹3-9 LPA
+267,Junior Backend Developer,Microsoft,"Django, SQL, MongoDB, Python",Chennai,₹3-8 LPA
+268,Associate Cloud Engineer,Infosys,"AWS, Kubernetes, Azure, Docker",Mumbai,₹6-8 LPA
+269,Junior Data Scientist,TCS,"Statistics, Machine Learning, Python, Pandas",Remote,₹3-18 LPA
+270,Junior Cloud Engineer,Amazon,"AWS, Docker, Terraform, Azure",Chennai,₹6-17 LPA
+271,Fresher Data Scientist,TCS,"Machine Learning, Python, Pandas, SQL",Mumbai,₹8-19 LPA
+272,Junior Cloud Engineer,Google,"Azure, Terraform, AWS, Kubernetes",Hyderabad,₹5-19 LPA
+273,Fresher Backend Developer,Wipro,"Python, Node.js, MongoDB, SQL",Chennai,₹5-15 LPA
+274,Junior Data Analyst,TCS,"Python, SQL, Tableau, Excel",Hyderabad,₹4-8 LPA
+275,Fresher Backend Developer,Zomato,"Python, Django, Node.js, MongoDB",Pune,₹6-9 LPA
+276,Fresher Data Scientist,Infosys,"Machine Learning, Statistics, SQL, Pandas",Pune,₹5-20 LPA
+277,Fresher Backend Developer,Google,"Django, Python, Node.js, MongoDB",Bangalore,₹6-18 LPA
+278,Fresher Frontend Developer,Google,"CSS3, React, JavaScript, HTML5",Pune,₹4-14 LPA
+279,Fresher Frontend Developer,Flipkart,"React, TypeScript, CSS3, JavaScript",Remote,₹6-14 LPA
+280,Junior ML Engineer,Zomato,"Scikit-learn, TensorFlow, Python, PyTorch",Chennai,₹8-15 LPA
+281,Associate Cloud Engineer,Zomato,"Docker, Azure, Terraform, Kubernetes",Remote,₹5-14 LPA
+282,Associate ML Engineer,Flipkart,"TensorFlow, PyTorch, Scikit-learn, Python",Mumbai,₹4-9 LPA
+283,Associate Data Scientist,Infosys,"Python, Machine Learning, Pandas, SQL",Remote,₹8-9 LPA
+284,Fresher Backend Developer,Flipkart,"Python, SQL, MongoDB, Node.js",Bangalore,₹8-19 LPA
+285,Associate Backend Developer,Microsoft,"Node.js, Python, MongoDB, SQL",Hyderabad,₹5-13 LPA
+286,Junior Data Scientist,Google,"Pandas, Python, SQL, Statistics",Bangalore,₹8-8 LPA
+287,Fresher DevOps Engineer,Accenture,"Linux, Kubernetes, Docker, AWS",Mumbai,₹6-10 LPA
+288,Junior Cloud Engineer,Flipkart,"Docker, AWS, Terraform, Azure",Remote,₹5-16 LPA
+289,Fresher Backend Developer,Microsoft,"Node.js, MongoDB, SQL, Django",Pune,₹7-14 LPA
+290,Fresher Data Analyst,Amazon,"Power BI, Python, SQL, Tableau",Noida,₹5-10 LPA
+291,Junior DevOps Engineer,Accenture,"Docker, Jenkins, Kubernetes, Linux",Hyderabad,₹3-9 LPA
+292,Associate Full Stack Developer,Microsoft,"AWS, Python, MongoDB, React",Hyderabad,₹7-11 LPA
+293,Junior Data Scientist,Google,"Statistics, Machine Learning, Pandas, Python",Bangalore,₹8-10 LPA
+294,Associate Data Scientist,Accenture,"Pandas, SQL, Statistics, Machine Learning",Hyderabad,₹7-12 LPA
+295,Junior Full Stack Developer,Wipro,"React, Python, MongoDB, Node.js",Chennai,₹3-14 LPA
+296,Fresher Frontend Developer,Accenture,"CSS3, React, HTML5, TypeScript",Hyderabad,₹7-20 LPA
+297,Junior Cloud Engineer,Flipkart,"Azure, AWS, Terraform, Kubernetes",Pune,₹8-8 LPA
+298,Fresher Cloud Engineer,Wipro,"Terraform, Kubernetes, AWS, Azure",Remote,₹7-9 LPA
+299,Associate Data Analyst,Flipkart,"Tableau, Python, Power BI, Excel",Bangalore,₹5-12 LPA
